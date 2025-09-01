@@ -404,3 +404,77 @@ nav img {
   color: red;
   text-decoration: underline; 
 }
+
+@media screen and (max-width: 1300px) {
+
+    nav {
+        max-width: 90vw;
+    }
+
+    .s1 {
+        flex-wrap: wrap;
+    }
+
+    .s1img {
+        width: 305px;
+    }
+
+    .s1img2 {
+        width: 305px;
+    }
+
+    .t1 {
+        font-size: 32px;
+    }
+
+    .t2 {
+        font-size: 18px;
+    }
+
+    .t3 {
+        font-size: 18px;
+    }
+
+    .btn3 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 16px;
+    }
+
+    .faq {
+        text-align: center;
+        font-size: 32px;
+    }
+
+    footer {
+        max-width: 90vw;
+        padding: 75px 0;
+    }
+
+    .fi {
+        align-items: center;
+    }
+}
+
+@media screen and (max-width: 1300px) {
+
+    .foot {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 25px;
+    }
+}
+
+
+    .foot a {
+        font-size: 14px;
+        color: white;
+}
+
+    .fi {
+        display: flex;
+        flex-direction: row;
+        gap: 23px;
+}
