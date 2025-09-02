@@ -478,3 +478,8 @@ nav img {
         flex-direction: row;
         gap: 23px;
 }
+@media screen and (max-width: 1301px){
+    .s1img2, .s3img2{
+        display: none;
+    }
+}
